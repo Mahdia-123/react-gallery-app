@@ -3,7 +3,7 @@
   border-radius: 8px;
   margin-bottom: 10px;
 }
-.Photos img:hover {
+.col-12 img:hover {
   opacity: 0.8;
   transition: transform 0.3ms all;
   transform: scale(1.05);
