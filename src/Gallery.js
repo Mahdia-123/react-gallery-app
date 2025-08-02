@@ -40,7 +40,7 @@ export default function Gallery() {
             Search
           </button>
         </form>
-        <div className="Hint">Suggested Words: honey, flower, yoga...</div>
+        <div className="Hint">i.g: honey, flower, yoga...</div>
       </section>
       <Photos photos={photos} />
     </div>
