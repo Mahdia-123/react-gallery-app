@@ -22,7 +22,7 @@
   color: rgb(167, 166, 166);
   font-size: 12px;
   line-height: 1.5;
-  margin-top: 5px;
+  margin-top: 2px;
 }
 .Gallery .btn {
   color: #f7f7f7;
@@ -37,15 +37,18 @@
 }
 @media (max-width: 960px) {
   .Gallery h1 {
-    font-size: 12px;
+    font-size: 10px;
+    margin-bottom: 5px;
   }
   .Gallery .Hint {
     font-size: 8px;
   }
   .Gallery input {
-    width: 60%;
+    width: 75%;
+    font-size: 10px;
   }
   .Gallery .btn {
-    padding: 8px 8pxpx;
+    padding: 6px 7px;
+    font-size: 10px;
   }
 }
