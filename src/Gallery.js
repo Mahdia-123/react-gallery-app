@@ -3,7 +3,7 @@ import Photos from "./Photos";
 import "./Gallery.css";
 import axios from "axios";
 
-export default function () {
+export default function Gallery() {
   const [keyWord, setKeyWord] = useState("");
   const [photos, setPhotos] = useState(null);
 

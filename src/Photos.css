@@ -1,4 +1,4 @@
-.Photos img {
+.col-12 img {
   border: none;
   border-radius: 8px;
   margin-bottom: 10px;
@@ -7,4 +7,5 @@
   opacity: 0.8;
   transition: transform 0.3ms all;
   transform: scale(1.05);
+  cursor: pointer;
 }

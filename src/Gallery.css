@@ -12,11 +12,12 @@
 }
 .Gallery input {
   width: 85%;
-  padding: 7px 5px;
+  padding: 7px 10px;
   border: 1px solid #ddd;
   color: rgb(21, 21, 21);
   border-radius: 6px;
 }
+
 .Gallery .Hint {
   color: rgb(167, 166, 166);
   font-size: 12px;
@@ -27,4 +28,24 @@
   color: #f7f7f7;
   background: #79a8a9;
   margin-left: 15px;
+}
+.Gallery .btn:hover {
+  color: #f7f7f7;
+  background: #79a8a9;
+  transition: transform 0.3ms all;
+  transform: scale(1.05);
+}
+@media (max-width: 960px) {
+  .Gallery h1 {
+    font-size: 12px;
+  }
+  .Gallery .Hint {
+    font-size: 8px;
+  }
+  .Gallery input {
+    width: 60%;
+  }
+  .Gallery .btn {
+    padding: 8px 8pxpx;
+  }
 }

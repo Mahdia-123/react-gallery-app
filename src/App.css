@@ -18,3 +18,8 @@ a .App-header {
   text-align: center;
   font-size: 14px;
 }
+@media (max-width: 960px) {
+  .gallery-footer {
+    font-size: 10px;
+  }
+}
